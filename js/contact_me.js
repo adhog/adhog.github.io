@@ -23,7 +23,7 @@ $(function() {
         url: "https://formspree.io/contactForm",
         type: "POST",
         data: {message: "hello!"},
-        dataType: "json"
+        dataType: "json",
         success: function() {
           // Success message
           $('#success').html("<div class='alert alert-success'>");
