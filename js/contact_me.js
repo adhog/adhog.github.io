@@ -22,7 +22,7 @@ $(function() {
       $.ajax({
         url: "https://formspree.io/contactForm",
         type: "POST",
-        data: $(this).serialize(),
+        data: {message: "hello!"},
         dataType: "json"
         success: function() {
           // Success message
